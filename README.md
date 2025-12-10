@@ -221,13 +221,13 @@ $response = Http::get(GO_SERVICE_URL . '/api/internal');
 ## Viewing Traces
 
 ### Local Development
-Open your TraceKit dashboard at: http://localhost:8081/traces
+Open your TraceKit dashboard at: http://api.tracekit.dev/traces
 
 ### Production
 View traces at: https://app.tracekit.dev
 
 ### Code Monitoring
-View snapshots at: http://localhost:8081/code-monitoring
+View snapshots at: http://api.tracekit.dev/code-monitoring
 Or: https://tracekit.dev/code-monitoring
 
 ## Configuration
@@ -238,7 +238,7 @@ All TraceKit configuration is in your `.env` file:
 |----------|-------------|---------|---------|
 | `TRACEKIT_API_KEY` | Your TraceKit API key | (required) | `ctxio_abc123...` |
 | `TRACEKIT_SERVICE_NAME` | Name of this service | `laravel-test-app` | `my-api-service` |
-| `TRACEKIT_ENDPOINT` | TraceKit server endpoint | `http://localhost:8081/v1/traces` | `https://api.tracekit.dev/v1/traces` |
+| `TRACEKIT_ENDPOINT` | TraceKit server endpoint | `https://api.tracekit.dev/v1/traces` | `https://api.tracekit.dev/v1/traces` |
 | `TRACEKIT_ENABLED` | Enable/disable tracing | `true` | `false` |
 | `TRACEKIT_CODE_MONITORING_ENABLED` | Enable code snapshots | `true` | `false` |
 
