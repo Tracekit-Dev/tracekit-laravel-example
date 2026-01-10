@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "549db1c50e357c9f4699120dcf178cbd",
+    "content-hash": "4d7d47755a3cbe7983adf6216ad1b755",
     "packages": [
         {
             "name": "brick/math",
@@ -6633,11 +6633,17 @@
         },
         {
             "name": "tracekit/laravel-apm",
-            "version": "dev-main",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Tracekit-Dev/laravel-apm.git",
+                "reference": "e69cdbaf590f135be6853e4687f4e7ebc90bb0c7"
+            },
             "dist": {
-                "type": "path",
-                "url": "../laravel-apm",
-                "reference": "c98ec7e98440ce3894c6a43f277b75425b46e7f8"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Tracekit-Dev/laravel-apm/zipball/e69cdbaf590f135be6853e4687f4e7ebc90bb0c7",
+                "reference": "e69cdbaf590f135be6853e4687f4e7ebc90bb0c7",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.0",
@@ -6662,18 +6668,14 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "TraceKit\\Laravel\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
-            },
-            "autoload-dev": {
+                ],
                 "psr-4": {
-                    "TraceKit\\Laravel\\Tests\\": "tests/"
+                    "TraceKit\\Laravel\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6692,10 +6694,11 @@
                 "performance",
                 "tracing"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/Tracekit-Dev/laravel-apm/issues",
+                "source": "https://github.com/Tracekit-Dev/laravel-apm/tree/v1.0.2"
+            },
+            "time": "2025-11-21T20:20:55+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -9221,14 +9224,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "tracekit/laravel-apm": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": {},
-    "plugin-api-version": "2.6.0"
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
