@@ -221,14 +221,13 @@ $response = Http::get(GO_SERVICE_URL . '/api/internal');
 ## Viewing Traces
 
 ### Local Development
-Open your TraceKit dashboard at: http://api.tracekit.dev/traces
+Open your TraceKit dashboard at: http://app.tracekit.dev/traces
 
 ### Production
 View traces at: https://app.tracekit.dev
 
 ### Code Monitoring
-View snapshots at: http://api.tracekit.dev/code-monitoring
-Or: https://tracekit.dev/code-monitoring
+View snapshots at: http://app.tracekit.dev
 
 ## Configuration
 
