@@ -237,7 +237,7 @@ All TraceKit configuration is in your `.env` file:
 |----------|-------------|---------|---------|
 | `TRACEKIT_API_KEY` | Your TraceKit API key | (required) | `ctxio_abc123...` |
 | `TRACEKIT_SERVICE_NAME` | Name of this service | `laravel-test-app` | `my-api-service` |
-| `TRACEKIT_ENDPOINT` | TraceKit server endpoint | `https://api.tracekit.dev/v1/traces` | `https://api.tracekit.dev/v1/traces` |
+| `TRACEKIT_ENDPOINT` | TraceKit server endpoint | `https://app.tracekit.dev/v1/traces` | `https://app.tracekit.dev/v1/traces` |
 | `TRACEKIT_ENABLED` | Enable/disable tracing | `true` | `false` |
 | `TRACEKIT_CODE_MONITORING_ENABLED` | Enable code snapshots | `true` | `false` |
 
@@ -275,7 +275,7 @@ When deploying to production:
 ```env
 APP_ENV=production
 APP_DEBUG=false
-TRACEKIT_ENDPOINT=https://api.tracekit.dev/v1/traces
+TRACEKIT_ENDPOINT=https://app.tracekit.dev/v1/traces
 TRACEKIT_SERVICE_NAME=my-production-app
 ```
 
