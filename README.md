@@ -29,7 +29,7 @@ This test app showcases:
 
 ```bash
 # Navigate to the project directory
-cd tracekit/laravel-test
+cd laravel-xxx
 
 # Install PHP dependencies
 composer install
